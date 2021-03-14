@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y Tablas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <p>Primero se definen y dentro se les colocan un < li>< /li> para hacer los numerales</p>
+    <p>De estas hay distintos tipos:</p>
+    <H2>Listas ordenadas < ol>< /ol></H2>
+    <ol>
+        <li>Pedro</li>
+        <li>Lourdes</li>
+        <li>José</li>
+    </ol>
+    <H2>Listas desordenadas < ul>< /ul></H2>
+    <ul type="square">
+        <li>Ayer</li>
+        <li>Hoy</li>
+        <li>Mañana</li>
+    </ul>
+    <H2>Listas de Definición < dl>< /dl></H2>
+    <p>Para las de Definición es diferente porque para la palabra es < dt>< /dt> y para la definición es < dd>< /dd></p>
+    <dl>
+        <dt>Juego:</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis molestiae asperiores iure illum beatae corporis.</dd>
+        <dt>Jugo:</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis molestiae asperiores iure illum beatae corporis.</dd>
+        <dt>Jugoso:</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis molestiae asperiores iure illum beatae corporis.</dd>
+    </dl>
+    <H2>Listas Anidadas</H2>
+    <p>Se pueden colocar hasta listas en listas</p>
+    <p><b>Reinos</b></p>
+    <ul>
+        <li>Animal
+            <ol>
+                <li>Animales</li>
+            </ol>
+        </li>
+        <li>Plantae
+            <ol>
+                <li>Plantas</li>
+            </ol>
+        </li>
+        <li>Fungi
+            <ol>
+                <li>Hongos</li>
+            </ol>
+        </li>
+        <li>Monera
+            <ol>
+                <li>Bacterias</li>
+            </ol>
+        </li>
+        <li>Protista
+            <ol>
+                <li>Protozoos</li>
+            </ol>
+        </li>
+    </ul>
+    <h1>Tablas</h1>
+    <p>Las tablas eran antes el metodo para ordenar todo en una página pero ahora todo se hace en Css. La estructura de una tabla es la siguiente:</p>
+    < table>
+        < tr>
+            < td></td>
+        < /tr>
+    < /table>
+    <p>Para que se junten dos secciones de una tabla en horizontal se usa un colspan como atributo y en vertical se usa un rowspan, dependiendo de cuantas secciones se quieran juntar se le da valor al atributo</p>
+    <p>Ejemplo:</p>
+    <table border="1" cellspacing="0px" cellpadding="30px">
+        <tr align="center">
+            <td rowspan="2">Tablas</td>
+            <td colspan="4">Multiples columnas</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">Primera Columna</td>
+            <td colspan="2">Segunda Columna</td>
+        </tr>
+        <tr align="center">
+            <td>Fila 1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr align="center">
+            <td>Fila 2</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+    <a href="multimedia.html">Seguir con el tema</a>
+    <h4>Otros temas de interes</h4>
+    <a href="/index.html">Página Principal</a><br>
+    <a href="hipervínculos.html">Tablas y Listas</a>
+</body>
+</html>
